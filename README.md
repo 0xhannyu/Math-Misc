@@ -9,3 +9,4 @@ Experimenting shi with everything
 - TimeC.java : displays time between same task done by 2 different methods
 - chase_01.java : full degree of freedom
 - chase_02.java : limited degree of freedom (surrounding tiles only)
+- Spiral.java : prints an Archimedean spiral
