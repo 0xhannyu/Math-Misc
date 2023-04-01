@@ -44,7 +44,7 @@ class DampingWave {
 
 			}
 
-			else (y > 0) {
+			else {
 
 				y = y + yO;
 
