@@ -32,6 +32,12 @@ class DampingWave {
 
 			t = t + 0.0045;
 
+			if(y > 0) {
+
+				y = yO + y;
+
+			}
+
 			if(y < 0) {
 
 				y = yO + y;
@@ -41,12 +47,6 @@ class DampingWave {
 			if(y == 0) {
 
 				y = yO;
-
-			}
-
-			else {
-
-				y = y + yO;
 
 			}
 
