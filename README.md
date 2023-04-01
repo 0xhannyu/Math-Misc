@@ -10,3 +10,4 @@ Experimenting shi with everything
 - chase_01.java : full degree of freedom
 - chase_02.java : limited degree of freedom (surrounding tiles only)
 - Spiral.java : prints an Archimedean spiral
+- DampingWave.java : prints a damping wave according to the formula `y(x, t) = A * e^(-δt) * sin(kx - ωt + φ)`
