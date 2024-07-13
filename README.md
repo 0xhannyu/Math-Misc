@@ -1,6 +1,5 @@
 # Math-Misc
 
-- CGOL.cpp : Conway's Game of Life algorithm 
 - CSE.java : pass a string through main method and get it displayed in a cool matrix manner
 - Circle.java : prints a circle using parametric equations
 - Patterns.java : lots of random patterns and waves
