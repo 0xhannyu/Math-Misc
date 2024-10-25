@@ -31,26 +31,8 @@ class DampingWave {
 			y = (int)(amp * Math.pow(Math.E, -(dmp * t)) * Math.sin((Math.PI*((k * x) - (w * t) + phi))/180));
 
 			t = t + 0.0045;
-
-			if(y > 0) {
-
-				y = yO + y;
-
-			}
-
-			if(y < 0) {
-
-				y = yO + y;
-
-			}
-
-			if(y == 0) {
-
-				y = yO;
-
-			}
-
-			//System.out.println(x+"\t"+y);
+			
+			y = y == 0 ? y0 : y + y0;
 
 			plot[x][y] = '@';
 		}
