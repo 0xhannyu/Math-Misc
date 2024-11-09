@@ -12,3 +12,4 @@
 - mtCircle.java : prints a circle with randomizing effect on the inner content of the circle, also has a gradient visual effect
 - mtCircle.cpp : C++ version of mtCircle.java, you can also replace GreyscaleCharSequence with just a single `"."` to make it look pleasing
 - AngledWave.cpp : Prints an animated angled sine wave by rotating the X-Y plane using basic sin-cos equations, (also another normal sine wave with it)
+- CSE.cpp : Recreated my string effect java code with C++, also i didn't want to use any extra libraries so created the random number generator manually. (Cool String Effect)
